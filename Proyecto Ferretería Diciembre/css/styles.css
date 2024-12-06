@@ -1,0 +1,206 @@
+/* Estilos generales */
+html, body {
+    height: 100%; /* Hacer que el HTML y el cuerpo ocupen todo el alto del viewport */
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+body {
+    font-family: 'Roboto', sans-serif; /* Fuente profesional y moderna */
+    font-size: 16px; /* Tamaño base de letra */
+    line-height: 1.6; /* Espaciado entre líneas para mejor legibilidad */
+    background-color: #f8f9fa; /* Color de fondo claro */
+    color: #212529; /* Color de texto principal */
+}
+
+/* Contenedor del contenido principal */
+.container {
+    flex: 1; /* Para que este elemento se expanda y empuje el footer hacia abajo */
+}
+
+/* Encabezados personalizados */
+h1, h2, h3 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    color: #2a7d2e; /* Verde oscuro */
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+h3 {
+    font-size: 1.75rem;
+}
+
+/* Texto general */
+p {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    color: #495057;
+}
+
+/* Barra de navegación */
+.navbar {
+    background-color: #343a40; /* Fondo oscuro */
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    color: #ffffff;
+}
+
+.navbar-brand:hover {
+    color: #ffc107; /* Amarillo al pasar el ratón */
+}
+
+/* Botones personalizados */
+.btn-primary {
+    background-color: #2a7d2e;
+    border: none;
+    font-size: 1rem;
+}
+
+.btn-primary:hover {
+    background-color: #1e5c20;
+}
+
+/* Tablas */
+.table {
+    border: 1px solid #dee2e6;
+    margin-top: 20px;
+}
+
+.table th {
+    background-color: #2a7d2e;
+    color: #ffffff;
+    font-size: 1rem;
+}
+
+.table td {
+    text-align: center;
+    font-size: 0.95rem;
+}
+
+/* Carrusel */
+.carousel-item img {
+    max-height: 500px;
+    object-fit: cover;
+}
+
+/* Carrusel con texto centrado en el medio de las imágenes */
+.carousel-caption {
+    position: absolute;
+    top: 50%; /* Mueve el texto al 50% de la altura de la imagen */
+    left: 50%; /* Mueve el texto al 50% del ancho de la imagen */
+    transform: translate(-50%, -50%); /* Ajusta la posición para centrar */
+    text-align: center; /* Centra el texto */
+}
+
+.carousel-caption h5,
+.carousel-caption p {
+    color: white; /* Asegúrate de que el texto sea visible sobre la imagen */
+}
+
+/* Estilo para las tarjetas de productos */
+.card {
+    border: 1px solid #dee2e6;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-title {
+    font-size: 1.25rem;
+    color: #2a7d2e;
+}
+
+.card-text {
+    color: #495057;
+}
+
+/* Pie de página */
+footer {
+    background-color: #343a40; /* Fondo oscuro */
+    color: #ffffff; /* Texto blanco */
+    text-align: center;
+    padding: 20px 0;
+    width: 100%;
+    font-size: 0.875rem;
+}
+
+footer a {
+    color: #ffc107; /* Amarillo para enlaces */
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #f8f9fa; /* Blanco al pasar el ratón */
+    text-decoration: underline;
+}
+
+/* Estilo de las columnas del footer */
+footer .footer-column {
+    text-align: left; /* Alineación del texto en columnas */
+    margin-bottom: 20px;
+}
+
+footer h4 {
+    color: #ffffff; /* Encabezados en blanco */
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+footer ul li {
+    margin-bottom: 5px;
+    color: #d6d6d6; /* Color gris claro para los textos */
+}
+
+footer ul li a {
+    color: #d6d6d6; /* Enlaces gris claro */
+}
+
+footer ul li a:hover {
+    color: #ffffff; /* Blanco al pasar el ratón */
+    text-decoration: underline;
+}
+
+/* Newsletter */
+footer .newsletter {
+    margin-top: 10px;
+}
+
+footer .newsletter input[type="email"] {
+    padding: 5px;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    width: 70%;
+    margin-right: 5px;
+}
+
+footer .newsletter button {
+    background-color: #2a7d2e; /* Botón verde */
+    color: #ffffff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+footer .newsletter button:hover {
+    background-color: #1e5c20; /* Verde más oscuro al pasar el ratón */
+}
+
+h5 {
+    color: darkblue;
+}
